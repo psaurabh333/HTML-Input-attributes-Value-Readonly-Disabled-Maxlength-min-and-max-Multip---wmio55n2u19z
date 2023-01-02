@@ -1,1 +1,220 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurabh Pandey</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7080adf56a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="animation">
+      <div class="view">
+        <div class="plane main">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://media-exp1.licdn.com/dms/image/D5603AQHCPbX1W59nJQ/profile-displayphoto-shrink_800_800/0/1666117594983?e=1671667200&v=beta&t=cFNSTwkGtvThRu9RH8MCIb0y5j2Jiz7lo2cAcWsuXoM"
+            alt="logo"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">My Services</a></li>
+            <li><a href="#portfolio">MY Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text" id="home">
+          <h1>Hi, I'm <span>Saurabh</span></h1>
+        </div>
+      </div>
+    </header>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+         
+          <div class="about-col-2">
+            <h1 class="sub-title" id="about">About Me</h1>
+            <p>
+              Hey, This is Saurabh Pandey a curious techie who always tri to get optimal solution for the real world problems with the help of the  altest technology.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Java</span></li>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>React</span></li>
+                <li><span>BootStrap</span></li>
+                <li><span>Git and github</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Masters in Computer Science</span><br />MIA Digital University</li>
+                <li><span>B.tech (Computer Science and Engineering)</span><br />CMRIT,Hyderabad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title" id="about">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front End Developer</h2>
+            <p>
+              Have strong command over web technologies like HTMlL,CSS,JavaScript. Have good knowledge about front library React. 
+            </p>
+            <a href="">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full Stack Developer</h2>
+            <p>
+              I have knowledge about Data Base Management, good at probem solving and logical thinking , good command over JavaScript
+            </p>
+            <a href="">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Java Developer</h2>
+            <p>
+              I have good hands on practice with Java programming language , I am also good in Data Structure and Algorithms.
+            </p>
+            <a href="">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title" id="about">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.QcADOZ6PiL_lHJ_UryyOIQHaEK&pid=Api&P=0" alt="" />
+            <div class="layer">
+              <h3>Sorting Visualizer</h3>
+              <p>
+                this shows how sorting happens internally .i used HTML,CSS,JavaScript
+              </p>
+              <a href="https://unique-faun-3cda48.netlify.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/WhatsApp Image 2022-11-03 at 01.55.07.jpg" alt="" />
+            <div class="layer">
+              <h3>Responsive food delivery website</h3>
+              <p>
+                Created an Responsive website for an restaurant . Were it be given capability to take orders from the customers.
+                to prepare this I have used HTML,CSS,JavaScript. 
+              </p>
+              <a href="https://gilded-cobbler-e6cc0e.netlify.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Scientific Calculator</h3>
+              <p>
+                Created an Calculator which do normal operations like Addition,Multiplication,Subtraction and Division . Along with this operations it is also capable of doing some advanced calculations like square,square root, tan, cos, sin etc.
+              </p>
+              <a href="https://luminous-belekoy-6cafce.netlify.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">see more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>psaurabh866@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"> </i>9453509333</p>
+            <div class="social-media">
+              <a href="https://github.com/saurabhpandey"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/saurabh-pandey-a0428a170/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/saurabh-pandey-a0428a170/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/saurabh-pandey-a0428a170/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <a href="/Resume-Saurabh Pandey (1).pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input
+                type="text"
+                name="name"
+                placeholder="enter the namme"
+                required
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="enter the mail"
+                required
+              />
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p><i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i> Happy Coding <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i></p>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
+Footer
